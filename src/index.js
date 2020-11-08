@@ -1,8 +1,6 @@
+// CSS
 import "./styles/main.scss";
-import LocomotiveScroll from 'locomotive-scroll';
+import "animate.css";
 
-const scroll = new LocomotiveScroll({
-    el: document.querySelector('[data-scroll-container]'),
-    smooth: true,
-    lerp: 0.08
-});
+// Javascript
+import "./smoothscroll";

@@ -1,1 +1,0 @@
-{"version":3,"sources":["styles\\main.scss"],"names":[],"mappings":"AAEA,KACC","file":"src.7f6f92e1.css","sourceRoot":"..\\src","sourcesContent":["$sup: lightgray;\r\n\r\nbody {\r\n\tbackground: $sup;\r\n}"]}

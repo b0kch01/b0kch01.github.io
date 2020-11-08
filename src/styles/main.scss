@@ -1,5 +1,9 @@
-@import "modifiers";
-@import "mobile";
+@import "reset", "modifiers";
+@font-face {
+    font-family: "Space";
+    src: url("../fonts/SpaceGrotesk.ttf");
+}
+
 *,
  :after,
  ::before {
@@ -7,16 +11,57 @@
 }
 
 body {
-    margin: 0;
+    font-family: Space;
     height: 100%;
+    margin: 0;
+    overflow: hidden;
+}
+
+nav {
+    display: block;
+    position: fixed;
+    top: 0;
+    padding: 1.875rem 0;
 }
 
 section {
+    position: relative;
     min-height: 100vh;
 }
 
 .container {
     margin-right: auto;
     margin-left: auto;
-    max-width: 95rem;
 }
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.split-50 {
+    display: inline;
+    width: 50% !important;
+}
+
+// Flexbox Styles
+.f-col {
+    display: flex;
+    flex-direction: column;
+}
+
+.f-row {
+    display: flex;
+    flex-direction: row;
+}
+
+.f-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@import "typography", "mobile";

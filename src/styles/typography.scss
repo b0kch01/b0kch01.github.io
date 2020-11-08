@@ -1,0 +1,20 @@
+/* Typography styles */
+
+html {
+    font-size: 100%;
+
+    h1 { font-size: 5.074em; }
+    h2 { font-size: 1.728em; }
+    h3 { font-size: 1.44em; }
+    h4 { font-size: 1.2em; }
+    small { font-size: 0.833em; }
+
+    .header-large { font-size: 7vw }
+    .header-jumbo { font-size: 20vw }
+
+    .letter { 
+        display: inline-block;
+        padding: 0;
+        margin: 0;
+    }
+}
