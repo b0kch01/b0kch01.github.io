@@ -1,0 +1,39 @@
+.bg-white {
+  background: #fff;
+}
+
+.bg-smoke {
+  background: #f7f7f7;
+}
+
+.bg-black {
+  background: #000;
+}
+
+@media (min-width: 700px) {
+  .container {
+    padding: 0 2.5rem;
+  }
+}
+*,
+:after,
+::before {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  height: 100%;
+}
+
+section {
+  min-height: 100vh;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 95rem;
+}
+
+/*# sourceMappingURL=/src.e31bb0bc.css.map */
